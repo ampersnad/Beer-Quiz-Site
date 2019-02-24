@@ -1,1 +1,35 @@
+body {
+	
+}
 
+.lead {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+	background-image: url('../img/beer-background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Berkshire Swash', cursive;
+	
+	
+}
+
+.container {
+	font-family: 'Quicksand', sans-serif;
+}
+
+p.question {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+.btn {
+	
+}
+
+#resultBeer {
+	font-family: 'Berkshire Swash', cursive;
+}

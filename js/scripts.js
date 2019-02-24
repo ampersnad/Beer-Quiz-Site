@@ -19,13 +19,13 @@ $(document).ready(function() {
     var result = add(color, dessert, activity, glass, smell);
     console.log(result)
     if (result <= 8) {
-      $("#resultBeer").text("You're sippin' on a Pilsner!");
+      $("#resultBeer").text("You're a refreshing Pilsner!");
     } else if (result <= 15) {
 
-      $("#resultBeer").text("You're sippin' on an IPA!");
+      $("#resultBeer").text("You're a bold IPA!");
     } else if (result <= 25) {
 
-      $("#resultBeer").text("You're sippin' on an Imperial Stout!");
+      $("#resultBeer").text("You're a formidable Imperial Stout!");
     }
 
   });
