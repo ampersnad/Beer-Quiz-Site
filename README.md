@@ -1,6 +1,6 @@
 # What beer should you drink?
 
-#### _Beer drinking quit site, second code review, 02.23.19_
+#### _Beer drinking quiz site, second code review, 02.23.19_
 
 #### By **Jen Bruce**
 
@@ -25,8 +25,8 @@ _To offer feedback or ask questions about the items found herein, you can reach 
 * _HTML_
 * _CSS_
 * _Bootstrap_
-*_Javascript_
-*_jQuery_
+* _Javascript_
+* _jQuery_
 
 ### License
 
