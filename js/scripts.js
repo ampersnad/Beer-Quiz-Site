@@ -18,32 +18,28 @@ $(document).ready(function() {
     var smell = parseInt($("input:radio[name=smell]:checked").val());
     var result = add(color, dessert, activity, glass, smell);
     console.log(result)
-    if (result <= 8) {
+	
+  
+	
+    if (result <= 9) {
       $("#resultBeer").text("You're a refreshing Pilsner!");
+	  $("img#pilsner").show();
     } else if (result <= 15) {
 
       $("#resultBeer").text("You're a bold IPA!");
+	  $("img#ipa").show();
     } else if (result <= 25) {
 
       $("#resultBeer").text("You're a formidable Imperial Stout!");
+	  $("img#stout").show();
     }
+	
+  $("#reset").click(function() {
+	  document.location.reload(true);
+  });
+	
+
 
   });
-  // $("form#calculator").submit(function() {
-  //   event.preventDefault();
-  //   var number1 = parseInt($("#input1").val());
-  //   var number2 = parseInt($("#input2").val());
-  //   var operator = $("input:radio[name=operator]:checked").val();
-  //   var result;
-  //   if (operator === "add") {
-  //     result = add(number1, number2);
-  //   } else if (operator === "subtract") {
-  //     result = subtract(number1, number2);
-  //   } else if (operator === "multiply") {
-  //     result = multiply(number1, number2);
-  //   } else if (operator === "divide") {
-  //     result = divide(number1, number2);
-  //   }
-  // });
-  //
+  
 });

@@ -1,5 +1,11 @@
-body {
-	
+html, body {
+	overflow-x: hidden;
+}
+
+img {
+	display: none;
+	width: 50%;
+	float: left;
 }
 
 .lead {
@@ -11,25 +17,23 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Berkshire Swash', cursive;
-	
-	
+	font-family: 'Berkshire Swash', cursive;	
 }
 
 .container {
 	font-family: 'Quicksand', sans-serif;
 }
 
-p.question {
+.question {
 	font-weight: bold;
 	font-size: 25px;
 }
 
-
-.btn {
-	
+#outputBeer {
+	display: inline-block;
 }
 
 #resultBeer {
 	font-family: 'Berkshire Swash', cursive;
+	
 }
